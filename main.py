@@ -25,7 +25,10 @@ if not hasattr(_pyrogram_errors, "GroupcallForbidden"):
     _pyrogram_errors.GroupcallForbidden = GroupcallForbidden
     if hasattr(_pyrogram_errors, "exceptions"):
         _pyrogram_errors.exceptions.GroupcallForbidden = GroupcallForbidden
-
+if not hasattr(_pyrogram_errors, "GroupcallInvalid"):
+    class GroupcallInvalid(Exception):
+        pass
+    _pyrogram_errors.GroupcallInvalid = GroupcallInvalid
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
