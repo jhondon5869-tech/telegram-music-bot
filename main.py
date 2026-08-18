@@ -29,7 +29,7 @@ if not hasattr(_pyrogram_errors, "GroupcallInvalid"):
     class GroupcallInvalid(Exception):
         pass
     _pyrogram_errors.GroupcallInvalid = GroupcallInvalid
-  import pyrogram.raw.types as _pyrogram_raw_types
+import pyrogram.raw.types as _pyrogram_raw_types
 if not hasattr(_pyrogram_raw_types, "InputGroupCallSlug"):
     class InputGroupCallSlug:
         def __init__(self, *args, **kwargs):
