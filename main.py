@@ -31,7 +31,6 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 from pytgcalls import PyTgCalls
 from pytgcalls.exceptions import (
-    GroupCallForbidden,
     NoActiveGroupCall,
     NotInCallError,
 )
