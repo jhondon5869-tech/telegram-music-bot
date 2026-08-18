@@ -35,7 +35,7 @@ from pytgcalls.exceptions import (
     NotInCallError,
 )
 from pytgcalls.types import MediaStream
-from pytgcalls.types.stream import AudioQuality, Flags
+from pytgcalls.types.stream import AudioQuality
 
 import config
 from youtube import format_duration, search_youtube
