@@ -35,6 +35,11 @@ if not hasattr(_pyrogram_raw_types, "InputGroupCallSlug"):
         def __init__(self, *args, **kwargs):
             pass
     _pyrogram_raw_types.InputGroupCallSlug = InputGroupCallSlug
+  if not hasattr(_pyrogram_raw_types, "PhoneCallDiscardReasonMigrateConferenceCall"):
+    class PhoneCallDiscardReasonMigrateConferenceCall:
+        def __init__(self, *args, **kwargs):
+            pass
+    _pyrogram_raw_types.PhoneCallDiscardReasonMigrateConferenceCall = PhoneCallDiscardReasonMigrateConferenceCall
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
