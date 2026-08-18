@@ -1,0 +1,7 @@
+pyrogram>=2.0.106,<3.0.0
+py-tgcalls[pyrogram]>=2.3.0
+yt-dlp>=2024.12.0
+python-dotenv>=1.0.0
+
+# Optional — speeds up Pyrogram crypto (requires C++ build tools on Windows):
+# tgcrypto

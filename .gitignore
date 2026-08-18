@@ -1,0 +1,22 @@
+# Environment & secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Downloads & temp audio
+downloads/
+*.mp3
+*.m4a
+*.webm
+*.part
+
+# IDE
+.idea/
+.vscode/
+*.swp
